@@ -38,6 +38,7 @@ def about_me() :
 about_me()   
 math.pi
 
+#2nd assignment
 def area_of_circle(r):
     pi * r * r
     
@@ -51,9 +52,7 @@ celcius = 5 / 9 * (fahrenheit - 32)
 
 print(f"The fahrenheit of {fahrenheit} equals {celcius} celcius: ")
 
-import random
-import string
-
+#3rd assignment
 def user_id_gen_by_user():
     num_characters = int(input("Enter the number of characters for the user ID: "))
     num_ids = int(input("Enter the number of IDs to generate: "))
@@ -67,5 +66,4 @@ def user_id_gen_by_user():
 # Example usage:
 user_id_gen_by_user()
 
-# Example usage:
-user_id_gen_by_user()
+
